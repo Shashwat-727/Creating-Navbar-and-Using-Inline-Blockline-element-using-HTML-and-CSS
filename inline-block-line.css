@@ -1,0 +1,49 @@
+
+.para1{
+    /* display: inline; */
+    border: 1px solid black;
+    width: 400px;
+    display: inline;
+}
+
+.para2{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px;
+    width: 400px;
+}
+.b1{
+    display: inline;
+    padding: 10px;
+    margin-right: 10px;
+    color:rgb(2, 81, 199);
+}
+.prop{
+    background-color: rgb(9, 75, 142);
+    color: rgb(193, 55, 248);
+    /* Converts to block element */
+    display: block;
+    width: 50%;
+    /* display: inline-block; */
+}
+
+
+li{
+    display: inline-block;
+    width:100px;
+    height: auto;
+    padding: 5px;
+}
+
+.disappear{
+    display: none;
+}
+
+.parent{
+    display: contents;
+}
+.child{
+    display: inline-block;
+    padding: 2px;
+    width: 200px;
+}
